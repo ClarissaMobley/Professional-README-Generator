@@ -11,30 +11,10 @@ const questions = [
     name: "title",
   },
   {
-    type: "checkbox",
-    message: "Please select which license was used for this project.",
-    choices: ("MIT", "Apache 2.0", "GPL 3.0", "None"),
-    name: "License",
-  },
-  {
     type: "input",
     message: "Please describe your project.",
     name: "description",
   },
-  //   {
-  //     type: "list",
-  //     message: "Table of Contents",
-  //     choices: [
-  //       "Description",
-  //       "Installation",
-  //       "Usage",
-  //       "License",
-  //       "Contributing",
-  //       "Tests",
-  //       "Questions",
-  //     ],
-  //     name: "Table of Contents",
-  //   },
   {
     type: "input",
     message: "Enter installation instructions",
@@ -47,8 +27,14 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter who contributed to the project",
+    message: "Please enter who contributed to the project",
     name: "contributing",
+  },
+  {
+    type: "checkbox",
+    message: "Please select which license was used for this project.",
+    choices: ("MIT", "Apache 2.0", "GPL 3.0", "None"),
+    name: "License",
   },
   {
     type: "input",
@@ -60,10 +46,7 @@ const questions = [
     message: "Please enter your GitHub username",
     name: "username",
   },
-
-].then((response) => {
-  console.log(response);
-});
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
