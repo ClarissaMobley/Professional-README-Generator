@@ -39,7 +39,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What do you use to test the project?"
+    message: "What do you use to test the project?",
     name: "tests",
   },
   {
