@@ -35,7 +35,17 @@ inquirer
             type: 'input',
             message: 'Enter usage information',
             name: 'Usage'
-        }
+        },
+        {
+            type: 'input',
+            message: 'Enter license information',
+            name: 'License',
+        },
+        {
+            type: 'input',
+            message: 'Enter who contributed to the project',
+            name: 'Contributing',
+        },
         
     ])
     .then((response) => {
