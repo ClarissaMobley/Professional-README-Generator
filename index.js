@@ -10,8 +10,27 @@ const fs = require('fs');
 // Step Two: Create an inquirer prompt
 inquirer
     .prompt([
-
+        {
+            type: 'input',
+            message: "What is the title of your project?",
+            name: 'Project Title',
+        },
+        {
+            type: 'list',
+            message: 'Table of Contents',
+            choices: ['Description', 'Installation', 'Usage', 'License', 'Contributing', 'Tests', 'Questions'],
+            name: 'Table of Contents',
+        },
+        {
+            type: 'input',
+            message: 'Please describe your project.',
+            name: 'Project Description',
+        },
+        
     ])
+    .then((response) => {
+        console.log(response);
+    });
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
