@@ -39,7 +39,8 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ## License
-  ${data.license}
+  ${renderLicenseBadge(data.license)}
+  ${data.license === "None" ? "No license available" : `This application was covered under the ${data.license} license.`}
   ## Contributing
   ${data.contributing}
   ## Tests
@@ -47,7 +48,6 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions, please send them [here](mailto:${data.email}subject=[GitHub])
   or [visit](https://github.com/${data.username})
-
 `;
 }
 
