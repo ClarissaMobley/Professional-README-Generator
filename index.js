@@ -1,6 +1,4 @@
 // Include packages needed for this application
-
-//Step One: Create Variables for npm packages
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown.js");
@@ -23,20 +21,20 @@ const questions = [
     message: "Please describe your project.",
     name: "description",
   },
-  {
-    type: "list",
-    message: "Table of Contents",
-    choices: [
-      "Description",
-      "Installation",
-      "Usage",
-      "License",
-      "Contributing",
-      "Tests",
-      "Questions",
-    ],
-    name: "Table of Contents",
-  },
+//   {
+//     type: "list",
+//     message: "Table of Contents",
+//     choices: [
+//       "Description",
+//       "Installation",
+//       "Usage",
+//       "License",
+//       "Contributing",
+//       "Tests",
+//       "Questions",
+//     ],
+//     name: "Table of Contents",
+//   },
   {
     type: "input",
     message: "Enter installation instructions",
