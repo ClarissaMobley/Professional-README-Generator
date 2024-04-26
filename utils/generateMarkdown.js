@@ -38,7 +38,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  If you have any questions, please send them [here](mailto:${data.email}subject=[GitHub])
+  If you have any questions, please send them [here](mailto:${data.email})
   or [visit](https://github.com/${data.username})
 `;
 }

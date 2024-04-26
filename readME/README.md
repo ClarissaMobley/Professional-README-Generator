@@ -1,7 +1,7 @@
-# ReadMe Generator
-  
+# readme
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  A command-line ReadMe Template
+  readme
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,16 +10,16 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  Install Node and NPM inquirer
+  readme
   ## Usage
-  First, you install NPM inquirer and then use the command line to push node index.js. Questions will appear and you answer them while 
+  readme
   ## License
-  
-  This application was covered under the  license.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  This application was covered under the MIT license.
   ## Contributing
   me
   ## Tests
   undefined
   ## Questions
-  If you have any questions, please send them [here](mailto:clarissamobley@me.comsubject=[GitHub])
+  If you have any questions, please send them [here](mailto:clarissamobley@me.com)
   or [visit](https://github.com/ClarissaMobley)

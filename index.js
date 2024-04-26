@@ -32,7 +32,7 @@ const questions = [
     name: "contributing",
   },
   {
-    type: "checkbox",
+    type: "list",
     message: "Please select which license was used for this project.",
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "None"],
     name: "license",
