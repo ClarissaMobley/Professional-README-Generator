@@ -27,15 +27,20 @@ const questions = [
     name: "usage",
   },
   {
+    type: "list",
+    message: "Please select which license was used for this project.",
+    choices: ["MIT", "Apache 2.0", "GPL 3.0", "None"],
+    name: "license",
+  },
+  {
     type: "input",
     message: "Please enter who contributed to the project",
     name: "contributing",
   },
   {
-    type: "list",
-    message: "Please select which license was used for this project.",
-    choices: ["MIT", "Apache 2.0", "GPL 3.0", "None"],
-    name: "license",
+    type: "input",
+    message: "What do you use to test the project?"
+    name: "tests",
   },
   {
     type: "input",
