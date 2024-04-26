@@ -24,8 +24,18 @@ inquirer
         {
             type: 'input',
             message: 'Please describe your project.',
-            name: 'Project Description',
+            name: 'Description',
         },
+        {
+           type: 'input',
+           message: 'Enter installation instructions',
+           name: 'Installation',
+        },
+        {
+            type: 'input',
+            message: 'Enter usage information',
+            name: 'Usage'
+        }
         
     ])
     .then((response) => {
