@@ -21,35 +21,46 @@ const questions = [
     message: "Please describe your project.",
     name: "description",
   },
-//   {
-//     type: "list",
-//     message: "Table of Contents",
-//     choices: [
-//       "Description",
-//       "Installation",
-//       "Usage",
-//       "License",
-//       "Contributing",
-//       "Tests",
-//       "Questions",
-//     ],
-//     name: "Table of Contents",
-//   },
+  //   {
+  //     type: "list",
+  //     message: "Table of Contents",
+  //     choices: [
+  //       "Description",
+  //       "Installation",
+  //       "Usage",
+  //       "License",
+  //       "Contributing",
+  //       "Tests",
+  //       "Questions",
+  //     ],
+  //     name: "Table of Contents",
+  //   },
   {
     type: "input",
     message: "Enter installation instructions",
-    name: "Installation",
+    name: "installation",
   },
   {
     type: "input",
     message: "Enter usage information",
-    name: "Usage",
+    name: "usage",
   },
   {
     type: "input",
     message: "Enter who contributed to the project",
-    name: "Contributing",
+    name: "contributing",
   },
+  {
+    type: "input",
+    message: "Please enter your email address",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "Please enter your GitHub username",
+    name: "username",
+  },
+
 ].then((response) => {
   console.log(response);
 });
