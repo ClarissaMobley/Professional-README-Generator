@@ -39,7 +39,7 @@ function generateMarkdown(data) {
   ${data.tests}
   ## Questions
   If you have any questions, please send them to [here](mailto:${data.email})
-  or [visit](https://github.com/${data.username})
+  or visit my [GitHub](https://github.com/${data.username}).
 `;
 }
 
