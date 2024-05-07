@@ -14,7 +14,7 @@
   Must have Node and NPM inquirer installed
   ## Usage
   After installing NPM, enter 'node index.js' into your command line. This will prompt a series of questions, which you should answer as they appear. After responding to all of the questions, you will receive a notification that your ReadMe has been successfully created. 
-  [ReadMe Screen Recording](https://drive.google.com/file/d/1gS425CC9wpNkOPCoqXqzO5ikLHMSGPBG/view?usp=drive_link)
+  [ReadMe Screen Recording](https://drive.google.com/file/d/1XS27GR0Bbr6ftChcIXQi4LL1Kj1lzEQY/view?usp=drive_link)
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   This application was covered under the MIT license.
