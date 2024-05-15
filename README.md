@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   A command line ReadME Generator using Node and NPM
-  ![screenshotTask](./assets/images/Screenshot%202024-04-26%20at%207.55.04 PM.png)
+  ![screenshotTask](./assets/images/Screenshot%202024-05-15%20at%207.19.06 PM.png)
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
